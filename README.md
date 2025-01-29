@@ -54,15 +54,12 @@ Capturas
 [![API.jpg](https://i.postimg.cc/Hs6SpTj3/API.jpg)](https://postimg.cc/ykShj4mS)
 
 [![LOGIN.jpg](https://i.postimg.cc/7Pd6j2nN/LOGIN.jpg)](https://postimg.cc/DmQnXmDW)
-
 [![MENU.jpg](https://i.postimg.cc/Qx7tDd6Z/MENU.jpg)](https://postimg.cc/56x1qbds)
 
 [![REGISTRO-MAT.jpg](https://i.postimg.cc/pLYL91b0/REGISTRO-MAT.jpg)](https://postimg.cc/75hkd9L7)
-
 [![REGISTRO-EST.jpg](https://i.postimg.cc/W4Nb06ss/REGISTRO-EST.jpg)](https://postimg.cc/DSNTTGWN)
 
 [![IMG-ASIS2.jpg](https://i.postimg.cc/nL3V2jLB/IMG-ASIS2.jpg)](https://postimg.cc/gw6Pk082)
-
 [![IMG-ASIS.jpg](https://i.postimg.cc/XJXjzjZh/IMG-ASIS.jpg)](https://postimg.cc/XGS6Z0kc)
 
 Licencia 📄
