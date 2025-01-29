@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">REGISTRO</string>
+
+
+        <string-array name="estados">
+            <item>Presente</item>
+            <item>Falta</item>
+            <item>Atraso</item>
+        </string-array>
+
+</resources>

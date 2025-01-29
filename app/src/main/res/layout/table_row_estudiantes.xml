@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/colNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/colApellidos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/colGrado"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/colCurso"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/colCodigo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textAlignment="center" />
+
+
+
+    <ImageButton
+        android:id="@+id/colEditarE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clicTablaEditar"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <ImageButton
+        android:id="@+id/colBorrarE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clicTablaBorrar"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+
+
+</TableRow>

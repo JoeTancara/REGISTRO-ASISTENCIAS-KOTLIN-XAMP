@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qqqq"
+
+    tools:context=".Estudiantes">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textViewTE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="REGISTRO DE ESTUDIANTES"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Campo: Código -->
+    <EditText
+        android:id="@+id/txtCodigoEstudiante"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Ingrese el Código"
+        android:textColor="@android:color/white"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Campo: Nombre -->
+    <EditText
+        android:id="@+id/txtNombreEstudiante"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Ingrese el Nombre"
+        android:textColor="@android:color/white"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/txtCodigoEstudiante"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Campo: Apellido -->
+    <EditText
+        android:id="@+id/txtApellidoEstudiante"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Ingrese el Apellido"
+        android:textColor="@android:color/white"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombreEstudiante"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Campo: Grado -->
+    <EditText
+        android:id="@+id/txtGradoEstudiante"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Ingrese el Grado"
+        android:textColor="@android:color/white"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/txtApellidoEstudiante"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Campo: Curso -->
+    <EditText
+        android:id="@+id/txtCursoEstudiante"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Ingrese el Curso"
+        android:textColor="@android:color/white"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/txtGradoEstudiante"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- ScrollView con la tabla -->
+    <ScrollView
+        android:id="@+id/scrollViewEstudiantes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtCursoEstudiante"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.4">
+
+        <TableLayout
+            android:id="@+id/tbEstudiantes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TableLayout>
+    </ScrollView>
+
+    <!-- División inferior -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@+id/scrollViewEstudiantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Botones en una sola línea -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Botón: Limpiar -->
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#00BCD4"
+            android:onClick="clicReset"
+            android:text="LIMPIAR" />
+
+        <!-- Botón: Editar -->
+        <Button
+            android:id="@+id/btnGuardaEditar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFEB3B"
+            android:onClick="clicGuardarEditr"
+            android:text="EDITAR" />
+
+        <!-- Botón: Insertar -->
+        <Button
+            android:id="@+id/btnInsertar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#3EB127"
+            android:onClick="clickBtnInsertar"
+            android:text="INSERTAR" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
