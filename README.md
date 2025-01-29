@@ -30,6 +30,8 @@ Abre el proyecto en Android Studio.
 Sincroniza el proyecto con Gradle para descargar las dependencias necesarias.
 
 Uso 📱
+Para el uso de la APIREST, debes clonar la carpeta que te dajare con el nombre de "API_REST_ASISTENCIA"
+
 Configuración del Servidor: Asegúrate de configurar la URL del servidor en las clases Asistencias.kt y Estudiantes.kt.
 
 Ejecución: Ejecuta la aplicación en un dispositivo Android o en un emulador.
