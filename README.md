@@ -1,5 +1,3 @@
-[![PERFIL-WORLD.jpg](https://i.postimg.cc/jSM5zfvn/PERFIL-WORLD.jpg)](https://postimg.cc/TKWfxpzT)
-
 Registro de Asistencias y Estudiantes - KOTLIN-XAMPP
 ¡Hola! 👋 Soy Joe Dev, el desarrollador detrás de este proyecto. Este repositorio contiene una aplicación Android diseñada para gestionar el registro de asistencias y estudiantes de manera eficiente. Está construida utilizando Kotlin y la biblioteca Volley para manejar las solicitudes HTTP. ¡Espero que te sea útil!
 
